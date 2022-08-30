@@ -26,6 +26,9 @@ int main()
       case '*':
             result=num1*num2;
             break;
+      case '/':
+            result=(float)num1/(float)num2;
+            break;
                     
           default:
             printf("Invalid operation.No such operation exsist");
