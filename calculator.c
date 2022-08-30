@@ -20,7 +20,10 @@ int main()
         case '+':
             result=num1+num2;
             break;
-             
+      case '-':
+            result=num1-num2;
+            break;
+                    
           default:
             printf("Invalid operation.No such operation exsist");
     }
